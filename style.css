@@ -1,0 +1,260 @@
+body{
+    background-color: #0b0b0b;
+}
+
+.bg{
+    background-image: url(img/panqueca-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+
+.cabecalho img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.caixa-contatos1,
+.caixa-contatos2 {
+    display: flex;
+    align-items: center;
+}
+
+.contatos {
+    padding-right: 38px;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.contatos h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.btn-peca-agora {
+    background-color: #ffe7cb;
+    width: 210px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.texto-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffe7cb;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.texto-inicio h3 {
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.decoration {
+    margin-top: 20px;
+    width: 60px;
+}
+
+.texto-inicio h1 {
+    text-transform: capitalize;
+    font-size: 80px;
+    padding-top: 34px;
+    font-family: 'Sedan SC', sans-serif;
+    font-weight: 100;
+}
+
+.texto-inicio .sub-texto {
+    padding-top: 25px;
+}
+
+.texto-inicio .btn-ver-cardapio {
+    background-color: none;
+    border: 2px solid #ffe7cb;
+    border-radius: 8px;
+    color: #ffe7cb;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    width: 210px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.btn-ver-cardapio:hover {
+    background-color: #ffe7cb;
+    transition: 1s ease-in-out;
+}
+
+.container-nosso-cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/bg-nosso-cardapio-1.png) no-repeat left bottom, url(img/bg-nosso-cardapio-2.png) no-repeat right top;
+
+}
+
+.cardapio-em-linha {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.container-nosso-cardapio h2 {
+    color: #C9B23A;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.container-pratos-comerciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-pratos-comerciais h3 {
+    color: #ffe7cb;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.container-moldura {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(img/contra-moldura.png);
+    background-size: cover;
+    height: 559px;
+    width: 478px;
+}
+
+.container-moldura a,
+.container-moldura-pratos-do-dia a {
+    color: #ffe7cb;
+    color: #ffe7cb;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.container-moldura-pratos-do-dia {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(img/feijoada-moldura.png);
+    background-size: cover;
+    height: 559px;
+    width: 478px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/bg-footer.png);
+    background-size: cover;
+    padding: 30px 0 10px 0;
+}
+
+.container-informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(img/bg-footer2.png);
+    background-size: cover;
+    padding: 30px;
+    height: 85vh;
+    width: 35vw;
+}
+
+.container-informacoes .logo-footer{
+    width: 350px;
+}
+
+.container-informacoes p{
+    color: #ffe7cb;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.endereco-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais img{
+    width: 50px;
+    margin: 0 15px;
+}
+
+.direitos{
+    color: #ffe7cb;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer .direitos a{
+    color: #F77F00;
+    font-weight: 700;
+}
